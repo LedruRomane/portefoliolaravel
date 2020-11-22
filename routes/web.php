@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [\App\Http\Controllers\StaticController::class, 'index'])->name('index');
+
+Route::get('/contact',[\App\Http\Controllers\ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact',[\App\Http\Controllers\ContactController::class, 'submit'])->name('contact.submit');
+
+Route::get('/gsb',[\App\Http\Controllers\StaticController::class, 'gsb'])->name('gsb');
+Route::get('/stagewess',[\App\Http\Controllers\StaticController::class, 'stagewess'])->name('stagewess');
+Route::get('/construction',[\App\Http\Controllers\StaticController::class, 'construction'])->name('construction');
+Route::get('/veilletech',[\App\Http\Controllers\StaticController::class, 'veilletech'])->name('veilletech');
