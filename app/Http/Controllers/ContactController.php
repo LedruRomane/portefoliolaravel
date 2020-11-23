@@ -18,8 +18,8 @@ class ContactController extends Controller
         Notification::route('mail', env('MAIL_CONTACT'))
             ->notify(new ContactNotification($request->all()));
 
-        return redirect()->route()->with([
-            'success' => 'Email envoyé! Je vous répondrai dans les plus brefs délais.'
+        return redirect('#formulaire')->with([
+            'success' => 'Email envoyé! je vous répondrai dans les plus brefs délais.'
         ]);
     }
 }
