@@ -369,7 +369,7 @@
                             </div>
                             <h3 class="heading"><a href="{{ route('gsb') }}">Projet Personnel Encadré: GSB</a>
                             </h3>
-                            <p>Site clients et intranet pour un laboratoire de médicaments. Laravel - NodeJs - </p>
+                            <p>Site clients et intranet pour un laboratoire de médicaments. Laravel </p>
                         </div>
                     </div>
                 </div>
@@ -603,10 +603,11 @@
                     </form>
                 </div>
                 <div class="col-md-6 d-flex">
-                    <div class="img" style="background-image: url(images/about.jpg);"></div>
+                    <div class="img" style="background-image: url(images/about.png);"></div>
                 </div>
             </div>
         </div>
     </section>
+
 
 @endsection
