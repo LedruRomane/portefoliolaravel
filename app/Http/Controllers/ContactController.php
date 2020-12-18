@@ -19,7 +19,7 @@ class ContactController extends Controller
             ->notify(new ContactNotification($request->all()));
 
         return redirect('#formulaire')->with([
-            'success' => 'Email envoyé! je vous répondrai dans les plus brefs délais.'
+            'success' => 'Email envoyé! Je vous répondrai dans les plus brefs délais.'
         ]);
     }
 }

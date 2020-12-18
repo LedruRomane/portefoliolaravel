@@ -6,6 +6,8 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class ContactRequest extends FormRequest
 {
+    protected $redirect = "#formulaire";
+
     /**
      * Get the validation rules that apply to the request.
      *
