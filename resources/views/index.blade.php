@@ -47,7 +47,7 @@
                         <div class="col-md-12 heading-section ftco-animate">
                             <h1 class="big">À propos</h1>
                             <h2 class="mb-4">À propos de moi</h2>
-                            <p>Jeune étudiante motivée pour s'épanouir dans le milieu du développement</p>
+                            <p>Jeune étudiante motivée pour s'épanouir dans le milieu du développement.</p>
                             <ul class="about-info mt-4 px-md-0 px-2">
                                 <li class="d-flex"><span>Nom:</span> <span>Romane Ledru</span></li>
                                 <li class="d-flex"><span>Naissance:</span> <span>28 avril 1997</span></li>
@@ -61,7 +61,7 @@
                     <div class="counter-wrap ftco-animate d-flex mt-md-3">
                         <div class="text">
                             <p class="mb-4">
-                                <span class="number" data-number="2">0</span>
+                                <span class="number" data-number="3">0</span>
                                 <span>Projets entrepris</span>
                             </p>
                             <p><a href="./CvLedru.pdf" target="_blank" class="btn btn-primary py-3 px-3">Télécharger mon
@@ -138,15 +138,14 @@
                         <h2>CDD Développement fullstack</h2>
                         <span class="position"><a href="https://www.wess-soft.com" target="_blank">Wess-Soft</a></span>
                         <p class="mt-4">Prolongement du stage. Projets sur Symfony (front/back), Wordpress (front),
-                            Prestashop (front/back module)</p>
+                            Prestashop (front/back module).</p>
                     </div>
                     <div class="resume-wrap ftco-animate">
                         <span class="date">2018-2019</span>
                         <h2>Marketing Sauthon Industry</h2>
                         <span class="position"><a href="https://www.sauthon.com" target="_blank">Sauthon</a></span>
-                        <p class="mt-4">Année sabbatique afin d'obtenir un peu d'expérience professionnelle et le budget
-                            pour mon
-                            projet de poursuite d'étude dans le développement.
+                        <p class="mt-4">Marketing et gestion, studio photo, maquettes et catalogues. Utilisation de Adobe,
+                            Excel...
                         </p>
                     </div>
                     <div class="resume-wrap ftco-animate">
@@ -173,20 +172,11 @@
                         <p class="mt-4">Stage de 3ème année de licence d'arts dans les classes d'Arts Plastiques et
                             Appliqués. </p>
                     </div>
-                    <div class="resume-wrap ftco-animate">
-                        <span class="date">été 2015 - été 2016</span>
-                        <h2>Employée magasin</h2>
-                        <span class="position">Leclerc Guéret</span>
-                        <p class="mt-4">Job étudiant les étés afin d'économiser et de me payer l'odinateur de mes
-                            rêves et voyager.
-                        </p>
-                    </div>
                 </div>
             </div>
             <div class="row justify-content-center mt-5">
                 <div class="col-md-6 text-center ftco-animate">
-                    <p><a href="./CvLedru.pdf" target="_blank" class="btn btn-primary py-4 px-5">Vous ai-je déjà proposé
-                            mon CV ?</a></p>
+                    <p><a href="./CvLedru.pdf" target="_blank" class="btn btn-primary py-4 px-5">CV</a></p>
                 </div>
             </div>
         </div>
