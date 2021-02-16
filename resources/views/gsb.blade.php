@@ -23,28 +23,51 @@
             <div class="row">
                 <div class="col-lg-8 ftco-animate">
                     <h2 class="mb-3">#1. Projet personnel encadré autour du thème bts GSB</h2>
-                    <p>En première partie de seconde année de BTS, nous avons eu comme sujet de PPE maquetter et concevoir la structure
+                    <p>En première partie de seconde année de BTS, nous avons eu comme sujet de PPE : maquetter et concevoir la structure
                         de pages web pour un laboratoire Galaxy Swiss Bourdin dit "GSB". Ce site Internet est repensé dans sa totalité
                         pour permettre aux utilisateurs de voir les médicaments qu'ils proposent mais aussi permettre aux praticiens de
-                        s'y connecter pour avoir des informations supplémentaires sur leurs produits.
+                        s'y connecter afin d'obtenir des informations supplémentaires sur leurs produits.
                     </p>
                     <p>
                         <img src="{{ url('images/AccueilGSB.jpg') }}" alt="" class="img-fluid">
                     </p>
-                    <p>cette première partie de projet à été conçue avec le Framwork Laravel. Cela m'a permis de découvrir ce framework,
+                    <p>Cette première partie de projet a été conçue avec le Framwork Laravel. Cela m'a permis de découvrir ce framework,
                         avec NodeJs, Blade et des technologies que je ne connaissais pas auparavant. La documentation Laravel étant très
                         conséquente, j'ai pu trouver facilement des solutions à mon projet.
+                        <br><br>
+                        On aura la possibilité de se connecter afin d'avoir accès à plus d'informations: je vous laisse les identifiants ici:
+                        <br><br>
+                        Pour se connecter en tant que particulier:<br><br>
+                        ID: particulier@gmail.com<br>
+                        MDP: particulier  <br><br>
+                        Pour se connecter en tant que practicien:<br><br>
+                        ID: praticien@gmail.com<br>
+                        MDP: praticien
+
                     </p>
+                    <a href="{{ url('http://gsb.test') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter le site web GSB</a>
                     <h2 class="mb-3 mt-5" id="tag-cloud-link1">#2. Création d'un intranet pour le laboratoire GSB</h2>
                     <p>En seconde partie, il a fallu créer un intranet permettant de disposer d'une application de type CRUD pour la
                         gestion des médicaments de GSB. Nous avions d'abord l'obligation de créer un site à part, mais nous aurions pu
                         l'intégrer dans le premier projet.
                     </p>
                     <p>
-                        <img src="{{ url('images/CRUDGSB.html') }}" alt="" class="img-fluid">
+                        <img src="{{ url('images/gsbCRUD.JPG') }}" alt="" class="img-fluid">
                     </p>
+                    <p>J'ai intégré l'obligation de se connecter afin d'avoir accès au CRUD et géré via la base de donnée les utilisateurs
+                        concernant leurs droits (insert,upload,delete). Si vous souhaitez y accéder, merci d'utiliser cet identifiant et
+                        ce mot de passe:<br>
+                        ID: test@gmail.com<br>
+                        MDP: toto<br>
+                        <br>
+                        <br>
+                        Inutile de préciser que vous pourrez ajouter et supprimer librement les informations donc veuillez bien respecter
+                        un minimum l'intégrité de la BDD afin que tous puissent la tester. J'ajouterai aussi qu'elle sera RESET toutes les heures
+                        automatiquement.
+                    </p>
+                    <a href="{{ url('http://gsb/intranet.test') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter l'intranet GSB
+                    </a>
                     <h2 class="mb-3 mt-5"></h2>
-                    <p></p>
                     <p></p>
                     <p></p>
                     <div class="tag-widget post-tag-container mb-5 mt-5">
@@ -139,10 +162,9 @@
                     </div>
                     <div class="sidebar-box ftco-animate">
                         <h3 class="heading-sidebar">Mes projets</h3>
-                        <p>Que ça soit en Licence, en BTS, en télétravail ou en présentiel,
-                            j'ai toujours fais de mon mieux pour présenter des projets
-                            qui m'intéressent et qui me forment au mieux pour répondre
-                            à mon projet d'étude.
+                        <p>Que ce soit en Licence, en BTS, en télétravail ou en présentiel,
+                            J'ai toujours fait en sorte de présenter des projets
+                            qui m'intéressent et qui me font avancer dans ma formation.
                         </p>
                     </div>
                 </div>

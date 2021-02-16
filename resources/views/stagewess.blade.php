@@ -21,19 +21,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 ftco-animate">
-                <h2 class="mb-3">Stage de première année: chez Wess-Soft</h2>
+                <h2 class="mb-3">Stage de première année chez Wess-Soft</h2>
                 <p>Wess-soft est une agence de développement mobile et web de 6 personnes tenue par deux co-gérants.
-                    Leur entreprise est située au 40 rue Laure Diebold à Lyon, et possède un open space dans un regroupement d’entreprises et de bureaux appelés Focus.
+                    Leur entreprise est située au 40 rue Laure Diebold à Lyon et loue un open-space dans un
+                    regroupement d’entreprises et de bureaux appelés Focus.
                 </p>
                 <h2 class="mb-3 mt-5" id="tag-cloud-link-1">
                     #1. Première approche
                 </h2>
                 <p>
-                    Tout d’abord, il m’a fallu mettre en place d’un environnement de travail : installation de wamp et laragon pour des travaux en locals,
-                    installation de symfony & laravel au cas où.
-                    Ensuite, on m’a confié un travail de mise à niveau du site wordpress de la boîte : Wess-soft.fr
-                    Je me suis occupée de la création d’une page de présentation « Solution de réservation en ligne tout-en-un pour votre salon ».
-                    Ça m’a permis d’y utiliser mes compétences acquises durant ma licence d’art design : travail sur le design/couleur, création et proposition
+                    Tout d’abord, il m’a fallu mettre en place un environnement de travail : installation de wamp et
+                    laragon pour des travaux en local,
+                    installation de symfony & laravel.
+                    Ensuite, on m’a confié un travail de mise à niveau du site wordpress de l'agence : Wess-soft.fr
+                    Je me suis occupée de la création d’une page de présentation « Solution de réservation en ligne
+                    tout-en-un pour votre salon ».
+                    Ça m’a permis d’utiliser mes compétences acquises durant ma licence d’art design : travail sur le
+                    design/couleur, création et proposition
                     d’une maquette avec un nouveau design sous Adobe XD.
 
                 </p>
@@ -44,22 +48,25 @@
                 <p>
                 </p>
                 <h2 class="mb-3 mt-5">#2. Modification module Prestashop </h2>
-                <p>Aussi, j’ai travaillé sur un module Prestashop de prise de rendez-vous en ligne. Cela consistait à la création d’une nouvelle fonctionnalité
-                    au sein du calendrier côté administrateur : L’ajout de la possibilité d’enregistrer des rendez-vous libres dit "en attente",
-                    la création du bouton, puis la gestion de la relation entre celui-ci et un popup avec un formulaire.
-                    Et évidemment le traitement du formulaire : <br>
-                    -Création de classe ; enregistrement au sein de la base de données <br>
-                    -Installation de cette fonctionnalité à l’installation du module, et désinstallation complète quand celui-ci est retiré du site Prestashop. <br>
-                    Dans un second temps, j’ai travaillé sur l’ajout d’un bouton pour ajouter/retirer des clients dans la liste d’attente.
-                    Affichage d’un nouveau popup avec un DataList avec la possibilité de sélectionner un client, de modifier ses informations, de le supprimer de la liste.
-                    Aussi, il me fallait la possibilité de renseigner un nouveau client et l’ajouter dans la base de données.
-
+                <p>Aussi, j’ai travaillé sur un module Prestashop de prise de rendez-vous en ligne. Cela consistait à
+                    créer une nouvelle fonctionnalité au sein du calendrier côté administrateur : L’ajout de la
+                    possibilité d’enregistrer des rendez-vous libres dit "en attente", la création du bouton, puis la
+                    gestion de la relation entre celui-ci et un popup grâce un formulaire. Et évidemment le traitement
+                    du formulaire : <br>
+                    -Création de classes ; enregistrement au sein de la base de données. <br>
+                    -Installation de cette fonctionnalité à l’installation du module, et désinstallation complète quand
+                    celui-ci est retiré du site Prestashop. <br>
+                    Dans un second temps, j’ai travaillé sur l’ajout d’un bouton pour ajouter/retirer des clients dans
+                    la liste d’attente. Affichage d’un nouveau popup avec un DataList avec la possibilité de
+                    sélectionner un client, de modifier ses informations, de le supprimer de la liste. Aussi, il
+                    fallait que l'on puisse renseigner un nouveau client et l’ajouter dans la base de données.
                 </p>
                 <p>
                     <img src="{{ url('images/extraiws.jpg') }}" alt="" class="img-fluid">
                 </p>
                 <p>
-                    Ci-dessus un extrait du travail réalisé. Le visuel étant protégé par Wess-Soft, il m'est impossible de montrer le calendrier côté administrateur.
+                    Ci-dessus un extrait du travail réalisé. Le visuel étant protégé par Wess-Soft, il m'est impossible
+                    de montrer le calendrier côté administrateur.
                 </p>
                 <p>
                     <img src="{{ url('images/extrait2ws.jpg') }}" alt="" class="img-fluid">
@@ -68,8 +75,8 @@
                     Ci-dessus un visuel du rendu des prises de rendez-vous en ligne pour des prestations (ici la date du rdv).
                 </p>
                 <h2 class="mb-3 mt-5">#3. ReDesign pour des clients de prestations sur Prestashop.</h2>
-                <p>J'ai aussi durant mon stage retravaillé les Design de deux sites de prestations en ligne. J'ai pu approfondir mes connaissances
-                    en CSS, et apprendre en profondeur l'utilité des SVG.
+                <p>J'ai aussi durant mon stage retravaillé les Design de deux sites de prestations en ligne. J'ai pu
+                    approfondir mes connaissances en CSS, et apprendre en profondeur l'utilité des SVG.
                 </p>
                 <p>
                     <img src="{{ url('images/extraitws3.jpg') }}" alt="" class="img-fluid">
@@ -79,16 +86,17 @@
                 </p>
                 <h2 class="mb-3 mt-5" id="tag-cloud-link-2">#4. Création sous Symfony d'une application Pivot Table</h2>
                 <p>
-                    Pour finir, j'ai pu créer sous Symfony une application permettant de proposer à la selection toutes les tables de n'importe quelle base de données
-                    pour ensuite construire dynamiquement une pivot table. Le design n'est pas soigné, l'intéret étant la gestion des données dans ce projet.
-                    Aussi il a fallu gérer l'enregistrement de la pivot table ainsi que sa configuration en bdd.
+                    Pour finir, j'ai pu créer sous Symfony une application permettant de proposer à la selection, toutes
+                    les tables de n'importe quelle base de données pour ensuite construire dynamiquement une
+                    pivot-table. Le design n'est pas soigné, l'intéret étant la gestion des données dans ce projet.
+                    Aussi il a fallu gérer l'enregistrement de la pivot-table ainsi que sa configuration en bdd.
                 </p>
                 <p>
                     <img src="{{ url('images/extraitws4.jpg') }}" alt="" class="img-fluid">
                 </p>
                 <p>
-                    Ci-dessus un apperçu d'une pivot table générée avec deux tables préalablement sélectionnée dans deux selects rétrocompatibles pour gérer
-                    les tables liées entre elles.
+                    Ci-dessus un aperçu d'une pivot table générée avec deux tables préalablement sélectionnées dans
+                    deux selects rétrocompatibles pour gérer les tables liées entre elles.
                 </p>
                 <div class="tag-widget post-tag-container mb-5 mt-5">
                     <div class="tagcloud">
@@ -110,7 +118,9 @@
                     </div>
                     <div class="desc">
                         <h3>Merci Wess-soft</h3>
-                        <p>Encore merci pour cette expérience très enrichissante et pour toute la bonne humeur pour ce séjour au sein de votre équipe.</p>
+                        <p>Encore merci pour cette expérience très enrichissante et pour toute la bonne humeur pendant
+                            ce séjour au sein de votre équipe.
+                        </p>
                     </div>
                 </div>
             </div> <!-- .col-md-8 -->

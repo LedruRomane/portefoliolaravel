@@ -10,7 +10,7 @@
                 <li class="nav-item"><a href="{{ route('index') }}#home-section" class="nav-link"><span>Accueil</span></a></li>
                 <li class="nav-item"><a href="{{ route('index') }}#about-section" class="nav-link"><span>À propos</span></a></li>
                 <li class="nav-item"><a href="{{ route('index') }}#resume-section" class="nav-link"><span>Formations</span></a></li>
-                <li class="nav-item"><a href="{{ route('index') }}#resume-section2" class="nav-link"><span>Experiences</span></a></li>
+                <li class="nav-item"><a href="{{ route('index') }}#resume-section2" class="nav-link"><span>Expériences</span></a></li>
                 <li class="nav-item"><a href="{{ route('index') }}#skills-section" class="nav-link"><span>Compétences</span></a></li>
                 <li class="nav-item"><a href="{{ route('index') }}#projects-section" class="nav-link"><span>Licence</span></a></li>
                 <li class="nav-item"><a href="{{ route('index') }}#blog-section" class="nav-link"><span>BTS SIO</span></a></li>

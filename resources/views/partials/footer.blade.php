@@ -16,7 +16,7 @@
                         <li><a href="{{ route('index') }}"><span class="icon-long-arrow-right mr-2"></span>Accueil</a></li>
                         <li><a href="{{ route('index') }}#about-section"><span class="icon-long-arrow-right mr-2"></span>À propos</a></li>
                         <li><a href="{{ route('index') }}#resume-section"><span class="icon-long-arrow-right mr-2"></span>Formations</a></li>
-                        <li><a href="{{ route('index') }}#resume-section2"><span class="icon-long-arrow-right mr-2"></span>Experiences</a></li>
+                        <li><a href="{{ route('index') }}#resume-section2"><span class="icon-long-arrow-right mr-2"></span>Expériences</a></li>
                         <li><a href="{{ route('index') }}#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
                     </ul>
                 </div>

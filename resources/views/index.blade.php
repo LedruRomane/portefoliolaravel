@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="resume-wrap ftco-animate">
-                        <span class="date">2021-2019</span>
+                        <span class="date">2019-2021</span>
                         <h2>BTS SIO SLAM</h2>
                         <span class="position">Lycée Sidoine Apollinaire</span>
                         <p class="mt-4">BTS Services Informatiques aux Organisations, option Solutions
@@ -127,7 +127,7 @@
             <div class="row justify-content-center pb-5">
                 <div class="col-md-10 heading-section text-center ftco-animate">
                     <h1 class="big big-2"></h1>
-                    <h2 class="mb-4">Experiences</h2>
+                    <h2 class="mb-4">Expériences</h2>
                     <p>Mes expériences professionnelles, stages et métiers.</p>
                 </div>
             </div>
@@ -160,9 +160,9 @@
                         <span class="date">Juin 2020</span>
                         <h2>Stage Développement web</h2>
                         <span class="position"><a href="https://www.wess-soft.com" target="_blank">Wess-Soft</a></span>
-                        <p class="mt-4">Stage de première année en BTS SIO, dans une entreprise accueillante et
-                            chaleureuse. Merci encore!
-                            Premier contact vraiment positif.
+                        <p class="mt-4">Stage de première année en BTS SIO dans une entreprise accueillante et
+                            chaleureuse. Merci encore !
+                            Premier contact vraiment positif et formateur.
                         </p>
                     </div>
                     <div class="resume-wrap ftco-animate">
@@ -248,7 +248,7 @@
                             <i class="flaticon-flasks"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Art & Illustrations</h3>
+                            <h3 class="mb-5">Arts & Illustrations</h3>
                         </div>
                     </a>
                 </div>
@@ -260,9 +260,9 @@
         <div class="container">
             <div class="row justify-content-center pb-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
-                    <h1 class="big big-2">Licence Art</h1>
+                    <h1 class="big big-2">DEUG</h1>
                     <h2 class="mb-4">Licence</h2>
-                    <p>Licence d'Art, Design et artisanat, Toulouse Jean Jaurès et Bordeaux Montaigne</p>
+                    <p>Licence d'Arts, Design, Sciences et Techniques, Toulouse Jean Jaurès et Bordeaux Montaigne</p>
                 </div>
             </div>
             <div class="row">
@@ -468,7 +468,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 ftco-animate text-center">
                     <h2>Aussi de <span>nombreuses</span> passions</h2>
-                    <p>Très éclectique sur beaucoup de domaines</p>
+                    <p>Je suis très éclectique</p>
                 </div>
             </div>
         </div>
