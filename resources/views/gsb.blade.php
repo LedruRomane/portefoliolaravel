@@ -45,7 +45,7 @@
                         MDP: praticien
 
                     </p>
-                    <a href="{{ url('http://gsb.test') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter le site web GSB</a>
+                    <a href="{{ url('http://gsb.romaneledru.fr') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter le site web GSB</a>
                     <h2 class="mb-3 mt-5" id="tag-cloud-link1">#2. Création d'un intranet pour le laboratoire GSB</h2>
                     <p>En seconde partie, il a fallu créer un intranet permettant de disposer d'une application de type CRUD pour la
                         gestion des médicaments de GSB. Nous avions d'abord l'obligation de créer un site à part, mais nous aurions pu
@@ -65,7 +65,7 @@
                         un minimum l'intégrité de la BDD afin que tous puissent la tester. J'ajouterai aussi qu'elle sera RESET toutes les heures
                         automatiquement.
                     </p>
-                    <a href="{{ url('http://gsb/intranet.test') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter l'intranet GSB
+                    <a href="{{ url('http://gsb-intranet.romaneledru.fr') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter l'intranet GSB
                     </a>
                     <h2 class="mb-3 mt-5"></h2>
                     <p></p>
@@ -93,12 +93,12 @@
                     <div class="sidebar-box">
                         <form action="#" class="search-form">
                             <div class="form-group">
-                                <a href="{{ url('http://gsb.test') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter le site web GSB</a>
+                                <a href="{{ url('http://gsb.romaneledru.fr') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter le site web GSB</a>
                             </div>
                             <div style="Height:10px;">
                             </div>
                             <div class="form-group">
-                                <a href="{{ url('http://gsb/intranet.test') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter le site Intranet GSB</a>
+                                <a href="{{ url('http://gsb-intranet.romaneledru.fr') }}" target="_blank" class="btn btn-primary py-3 px-4">Visiter le site Intranet GSB</a>
                             </div>
                         </form>
                     </div>
