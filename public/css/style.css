@@ -9684,6 +9684,64 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-.imageHeader{
-    height: 400px!important;
+.imageHeader {
+    height: 400px !important;
+}
+#home{
+    padding-top:10%;
+    padding-bottom: 15%;
+}
+#home h1,h2{
+    text-shadow: 2px 7px 10px black;
+}
+#home .btn{
+    box-shadow: 5px 5px 10px black;
+}
+#home .subheading{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffbd39;
+}
+#home span{
+    font-weight: 800;
+    color: #ffbd39;
+}
+#home h1{
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+@media (max-width: 768px){
+    #home h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 991px){
+    #home h1{
+        font-size: 50px;
+    }
+}
+#home a{
+    margin-top: 15px;
+}
+.parallax{
+    background-image: url("../images/bg_2.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: 75% 25%;
+    background-repeat: no-repeat;
+}
+@media (max-width: 576px){
+    .container{
+        margin-left:2%;
+        margin-right:2%;
+    }
+}
+@media (max-width: 576px){
+    .parallax{
+        background-image: url('../images/bg_blur.jpg');
+    }
 }

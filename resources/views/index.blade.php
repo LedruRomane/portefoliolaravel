@@ -3,30 +3,17 @@
 @section('title', 'portefolio')
 
 @section('content')
-    <section id="home-section" class="hero">
-        <div class="home-slider  owl-carousel">
-            <div class="slider-item ">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
-                         data-scrollax-parent="true">
-                        <div class="one-third js-fullheight order-md-last img"
-                             style="background-image:url('images/bg_2.png');">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="one-forth d-flex  align-items-center ftco-animate"
-                             data-scrollax=" properties: { translateY: '70%' }">
-                            <div class="text">
-                                <span class="subheading">Bonjour!</span>
-                                <h1 class="mb-4 mt-3">Je suis <span>Romane Ledru</span></h1>
-                                <h2 class="mb-4">Étudiante en Développement</h2>
-                                <p><a href="https://www.linkedin.com/in/romane-ledru" target="_blank"
-                                      class="btn btn-primary py-3 px-4 ">LinkedIn</a>
-                                    <a href="./CvLedru.pdf" target="_blank"
-                                       class="btn btn-white btn-outline-white py-3 px-4">Télécharger mon cv</a></p>
-                            </div>
-                        </div>
-                    </div>
+    <section class="parallax" id="home">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="text">
+                    <span class="subheading">Bonjour!</span>
+                    <h1 class="mb-4 mt-3">Je suis <br><span>Romane Ledru</span></h1>
+                    <h2 class="mb-4">Étudiante en Développement</h2>
+                    <p><a href="https://www.linkedin.com/in/romane-ledru" target="_blank"
+                          class="btn btn-primary py-3 px-4 ">LinkedIn</a>
+                        <a href="./CvLedru.pdf" target="_blank"
+                           class="btn btn-white py-3 px-4">Télécharger mon cv</a></p>
                 </div>
             </div>
         </div>
@@ -46,7 +33,7 @@
                     <div class="row justify-content-start pb-3">
                         <div class="col-md-12 heading-section ftco-animate">
                             <h1 class="big">À propos</h1>
-                            <h2 class="mb-4">À propos de moi</h2>
+                            <h2 class="mb-4">À propos</h2>
                             <p>Jeune étudiante motivée pour s'épanouir dans le milieu du développement.</p>
                             <ul class="about-info mt-4 px-md-0 px-2">
                                 <li class="d-flex"><span>Nom:</span> <span>Romane Ledru</span></li>
@@ -61,7 +48,7 @@
                     <div class="counter-wrap ftco-animate d-flex mt-md-3">
                         <div class="text">
                             <p class="mb-4">
-                                <span class="number" data-number="3">0</span>
+                                <span class="number" data-number="5">0</span>
                                 <span>Projets entrepris</span>
                             </p>
                             <p><a href="./CvLedru.pdf" target="_blank" class="btn btn-primary py-3 px-3">Télécharger mon
