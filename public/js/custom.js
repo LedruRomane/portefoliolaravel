@@ -29,4 +29,6 @@ function showImage(image1, image2, image3) {
         }
     ]);
 }
-
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});

@@ -22,7 +22,6 @@
         <link rel="stylesheet" href="{{ url('css/flaticon.css') }}">
         <link rel="stylesheet" href="{{ url('css/icomoon.css') }}">
         <link rel="stylesheet" href="{{ url('css/style.css') }}">
-        <link rel="stylesheet" href="{{ url('css/style2.css') }}">
        <title>@yield('title')</title>
     </head>
 
@@ -40,7 +39,6 @@
     <script src="{{ url('js/jquery.min.js') }}"></script>
     <script src="{{ url('js/jquery-migrate-3.0.1.min.js') }}"></script>
     <script src="{{ url('js/popper.min.js') }}"></script>
-    <script src="{{ url('js/bootstrap.min.js') }}"></script>
     <script src="{{ url('js/jquery.easing.1.3.js') }}"></script>
     <script src="{{ url('js/jquery.waypoints.min.js') }}"></script>
     <script src="{{ url('js/jquery.stellar.min.js') }}"></script>
@@ -51,7 +49,8 @@
     <script src="{{ url('js/scrollax.min.js') }}"></script>
     <script src="{{ url('js/main.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-        <script src="{{ url('js/custom.js') }}"></script>
+    <script src="{{ url('js/custom.js') }}"></script>
+    <script src="js/jquery.min.js.pagespeed.jm.xZH2zNe7lE.js"></script>
     <script src="js/jquery.min.js.pagespeed.jm.xZH2zNe7lE.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.WnXzm1IAg8.js"></script>
     <script>
