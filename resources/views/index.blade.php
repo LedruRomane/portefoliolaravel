@@ -395,7 +395,7 @@
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry">
-                        <a href="{{ route('construction') }}" class="block-20" style="background-image: url('images/image_3.jpg');">
+                        <a href="{{ route('applicsharp') }}" class="block-20" style="background-image: url('images/image_3.jpg');">
                         </a>
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-3 meta">
@@ -403,7 +403,7 @@
                                     <span class="mr-2">Client Lourd</span>
                                 </p>
                             </div>
-                            <h3 class="heading"><a href="{{ route('construction') }}">Application C#</a>
+                            <h3 class="heading"><a href="{{ route('applicsharp') }}">Application C#</a>
                             </h3>
                             <p>PPE application C# - Page en construction.</p>
                         </div>

@@ -22,14 +22,14 @@
         <div class="row">
             <div class="col-lg-8 ftco-animate">
                 <h2 class="mb-3">Stage de première année chez Wess-Soft</h2>
-                <p>Wess-soft est une agence de développement mobile et web de 6 personnes tenue par deux co-gérants.
+                <p class="justify">Wess-soft est une agence de développement mobile et web de 6 personnes tenue par deux co-gérants.
                     Leur entreprise est située au 40 rue Laure Diebold à Lyon et loue un open-space dans un
                     regroupement d’entreprises et de bureaux appelés Focus.
                 </p>
                 <h2 class="mb-3 mt-5" id="tag-cloud-link-1">
                     #1. Première approche
                 </h2>
-                <p>
+                <p class="justify">
                     Tout d’abord, il m’a fallu mettre en place un environnement de travail : installation de wamp et
                     laragon pour des travaux en local,
                     installation de symfony & laravel.
@@ -48,7 +48,7 @@
                 <p>
                 </p>
                 <h2 class="mb-3 mt-5">#2. Modification module Prestashop </h2>
-                <p>Aussi, j’ai travaillé sur un module Prestashop de prise de rendez-vous en ligne. Cela consistait à
+                <p class="justify">Aussi, j’ai travaillé sur un module Prestashop de prise de rendez-vous en ligne. Cela consistait à
                     créer une nouvelle fonctionnalité au sein du calendrier côté administrateur : L’ajout de la
                     possibilité d’enregistrer des rendez-vous libres dit "en attente", la création du bouton, puis la
                     gestion de la relation entre celui-ci et un popup grâce un formulaire. Et évidemment le traitement
@@ -64,18 +64,18 @@
                 <p>
                     <img src="{{ url('images/extraiws.jpg') }}" alt="" class="img-fluid">
                 </p>
-                <p>
+                <p class="justify">
                     Le visuel étant protégé par Wess-Soft, il m'est impossible de montrer le calendrier côté
                      administrateur.
                 </p>
                 <p>
                     <img src="{{ url('images/extrait2ws.jpg') }}" alt="" class="img-fluid">
                 </p>
-                <p>
+                <p class="justify">
                     Ci-dessus un visuel du rendu des prises de rendez-vous en ligne pour des prestations (ici la date du rdv).
                 </p>
                 <h2 class="mb-3 mt-5">#3. ReDesign pour des clients de prestations sur Prestashop.</h2>
-                <p>J'ai aussi durant mon stage retravaillé les Design de deux sites de prestations en ligne. J'ai pu
+                <p class="justify">J'ai aussi durant mon stage retravaillé les Design de deux sites de prestations en ligne. J'ai pu
                     approfondir mes connaissances en CSS, et apprendre en profondeur l'utilité des SVG.
                 </p>
                 <p>
@@ -85,7 +85,7 @@
                     Ci-dessus l'avant/après du design du site web.
                 </p>
                 <h2 class="mb-3 mt-5" id="tag-cloud-link-2">#4. Création sous Symfony d'une application Pivot Table</h2>
-                <p>
+                <p class="justify">
                     Pour finir, j'ai pu créer sous Symfony une application permettant de proposer à la selection, toutes
                     les tables de n'importe quelle base de données pour ensuite construire dynamiquement une
                     pivot-table. Le design n'est pas soigné, l'intéret étant la gestion des données dans ce projet.
@@ -94,7 +94,7 @@
                 <p>
                     <img src="{{ url('images/extraitws4.jpg') }}" alt="" class="img-fluid">
                 </p>
-                <p>
+                <p class="justify">
                     Ci-dessus un aperçu d'une pivot table générée avec deux tables préalablement sélectionnées dans
                     deux selects rétrocompatibles pour gérer les tables liées entre elles.
                 </p>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="sidebar-box ftco-animate">
                     <h3 class="heading-sidebar">Mes projets</h3>
-                    <p>Que ça soit en Licence, en BTS, en télétravail ou en présentiel,
+                    <p class="justify">Que ça soit en Licence, en BTS, en télétravail ou en présentiel,
                         j'ai toujours fais de mon mieux pour présenter des projets
                         qui m'intéressent et qui me forment au mieux pour répondre
                         à mon projet d'étude.

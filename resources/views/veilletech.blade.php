@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Stage Wess-Soft')
+@section('title', 'Veille Technologique')
 
 @section('content')
     <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -250,7 +250,7 @@
                     </div>
                     <div class="sidebar-box ftco-animate">
                         <h3 class="heading-sidebar">Mes projets</h3>
-                        <p>Que ce soit en Licence, en BTS, en télétravail ou en présentiel,
+                        <p class="justify">Que ce soit en Licence, en BTS, en télétravail ou en présentiel,
                             J'ai toujours fait en sorte de présenter des projets
                             qui m'intéressent et qui me font avancer dans ma formation.
                         </p>

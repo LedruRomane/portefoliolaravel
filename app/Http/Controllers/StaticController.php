@@ -30,4 +30,8 @@ class StaticController extends Controller
     {
         return view('veilletech');
     }
+    public function applicsharp()
+    {
+        return view('applicsharp');
+    }
 }

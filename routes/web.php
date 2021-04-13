@@ -22,3 +22,4 @@ Route::get('/gsb',[\App\Http\Controllers\StaticController::class, 'gsb'])->name(
 Route::get('/stagewess',[\App\Http\Controllers\StaticController::class, 'stagewess'])->name('stagewess');
 Route::get('/construction',[\App\Http\Controllers\StaticController::class, 'construction'])->name('construction');
 Route::get('/veilletech',[\App\Http\Controllers\StaticController::class, 'veilletech'])->name('veilletech');
+Route::get('/applicsharp',[\App\Http\Controllers\StaticController::class, 'applicsharp'])->name('applicsharp');
