@@ -72,7 +72,7 @@
                 <div class="col-md-6">
                     <div class="resume-wrap ftco-animate">
                         <span class="date">2019-2021</span>
-                        <h2>BTS SIO SLAM</h2>
+                        <h2><a href="#blog-section" style="color:white;">BTS SIO SLAM</a></h2>
                         <span class="position">Lycée Sidoine Apollinaire</span>
                         <p class="mt-4">BTS Services Informatiques aux Organisations, option Solutions
                             Logicielles et Applications Métiers.
@@ -80,7 +80,7 @@
                     </div>
                     <div class="resume-wrap ftco-animate">
                         <span class="date">2015-2017</span>
-                        <h2>DEUG Arts Design, Sciences et Techniques</h2>
+                        <h2><a href="#projects-section" style="color:white;">DEUG Arts Design, Sciences et Techniques</a></h2>
                         <span class="position">Université Toulouse Jean Jaurès</span>
                         <p class="mt-4">Approche de la programmation, workshops créatifs, apprentissage
                             Marketing et Design.</p>
@@ -89,7 +89,7 @@
                 <div class="col-md-6">
                     <div class="resume-wrap ftco-animate">
                         <span class="date">2017-2018</span>
-                        <h2>Licence 3 Arts Plastiques et Appliqués</h2>
+                        <h2><a href="#projects-section" style="color:white;">Licence 3 Arts Plastiques et Appliqués</a></h2>
                         <span class="position">Université Bordeaux Montaigne</span>
                         <p class="mt-4">Option didactique, Obtenu mention Assez Bien.</p>
                     </div>
@@ -121,19 +121,29 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="resume-wrap ftco-animate">
-                        <span class="date">Juillet-Août 2020</span>
-                        <h2>CDD Développement fullstack</h2>
+                        <span class="date">Février-Mars 2021</span>
+                        <h2>Stage Développement web</h2>
                         <span class="position"><a href="https://www.wess-soft.com" target="_blank">Wess-Soft</a></span>
-                        <p class="mt-4">Prolongement du stage. Projets sur Symfony (front/back), Wordpress (front),
-                            Prestashop (front/back module).</p>
+                        <p class="mt-4">Stage de seconde année de BTS SIO. Développement d'un module Prestashop, mise
+                            en place d'une CI sur Github Action, participation à des projets back et front ...</p>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-md-6 text-center ftco-animate">
+                                <p><a href="" target="_blank" class="btn btn-primary">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="resume-wrap ftco-animate">
                         <span class="date">2018-2019</span>
                         <h2>Marketing Sauthon Industry</h2>
                         <span class="position"><a href="https://www.sauthon.com" target="_blank">Sauthon</a></span>
-                        <p class="mt-4">Marketing et gestion, studio photo, maquettes et catalogues. Utilisation de Adobe,
-                            Excel...
+                        <p class="mt-4">Marketing et gestion, studio photo, maquettes et catalogues. Utilisation de
+                            Adobe, Excel...
                         </p>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-md-6 text-center ftco-animate">
+                                <p><a href="" target="_blank" class="btn btn-primary">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="resume-wrap ftco-animate">
                         <span class="date">Printemps 2018</span>
@@ -144,6 +154,18 @@
                 </div>
                 <div class="col-md-6">
                     <div class="resume-wrap ftco-animate">
+                        <span class="date">Juillet-Août 2020</span>
+                        <h2>CDD Développement fullstack</h2>
+                        <span class="position"><a href="https://www.wess-soft.com" target="_blank">Wess-Soft</a></span>
+                        <p class="mt-4">Prolongement du stage. Projets sur Symfony (front/back), Wordpress (front),
+                            Prestashop (front/back module).</p>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-md-6 text-center ftco-animate">
+                                <p><a href="{{ route('stagewess') }}" target="_blank" class="btn btn-primary">En savoir plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-wrap ftco-animate">
                         <span class="date">Juin 2020</span>
                         <h2>Stage Développement web</h2>
                         <span class="position"><a href="https://www.wess-soft.com" target="_blank">Wess-Soft</a></span>
@@ -151,6 +173,11 @@
                             chaleureuse. Merci encore !
                             Premier contact vraiment positif et formateur.
                         </p>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-md-6 text-center ftco-animate">
+                                <p><a href="{{ route('stagewess') }}" target="_blank" class="btn btn-primary">En savoir plus</a></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="resume-wrap ftco-animate">
                         <span class="date">Avril 2018</span>
@@ -185,7 +212,7 @@
                             <i class="flaticon-web-design"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Design Web</h3>
+                            <h3 class="mb-5">Design Web <br>Suite Adobe</h3>
                         </div>
                     </a>
                 </div>
@@ -195,7 +222,7 @@
                             <i class="flaticon-idea"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Développement Web</h3>
+                            <h3 class="mb-5">Développement Web <br>CMS</h3>
                         </div>
                     </a>
                 </div>
@@ -215,7 +242,7 @@
                             <i class="flaticon-ux-design"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Suite Adobe</h3>
+                            <h3 class="mb-5">Versioning git</h3>
                         </div>
                     </a>
                 </div>
@@ -336,7 +363,7 @@
             <div class="row d-flex">
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry justify-content-end">
-                        <a href="{{ route('gsb') }}" class="block-20" style="background-image: url('images/image_1.jpg');">
+                        <a href="{{ route('gsb') }}" class="block-20" style="background-image: url('images/logogsb.jpg'); background-color:whitesmoke;    background-size: contain;">
                         </a>
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-3 meta">
@@ -346,13 +373,13 @@
                             </div>
                             <h3 class="heading"><a href="{{ route('gsb') }}">Projet Personnel Encadré: GSB</a>
                             </h3>
-                            <p>Site clients et intranet pour un laboratoire de médicaments. Laravel </p>
+                            <p>Site clients et intranet pour un laboratoire de médicaments. Laravel - </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry justify-content-end">
-                        <a href="{{ route('stagewess') }}" class="block-20" style="background-image: url('images/image_2.jpg');">
+                        <a href="{{ route('stagewess') }}" class="block-20" style="background-image: url('images/image_2.jpg'); background-color:#0b586d;">
                         </a>
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-3 meta">
@@ -360,9 +387,9 @@
                                     <span class="mr-2">Client Léger</span>
                                 </p>
                             </div>
-                            <h3 class="heading"><a href="{{ route('stagewess') }}">Stage: Wess-Soft</a>
+                            <h3 class="heading"><a href="{{ route('stagewess') }}">Stage & CDD 1ère année: Wess-Soft</a>
                             </h3>
-                            <p>Travaux réalisés durant mon stage de première année. Symfony - Prestashop - Wordpress</p>
+                            <p>Travaux réalisés durant mon stage de première année. Symfony - Prestashop - Wordpress -</p>
                         </div>
                     </div>
                 </div>
@@ -389,7 +416,7 @@
         <div class="container">
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry justify-content-end">
-                    <a href="{{ route('veilletech') }}" class="block-20" style="background-image: url('images/image_4.jpg');">
+                    <a href="{{ route('veilletech') }}" class="block-20" style="background-image: url('images/CICD.jpg');">
                     </a>
                     <div class="text mt-3 float-right d-block">
                         <div class="d-flex align-items-center mb-3 meta">
@@ -397,7 +424,7 @@
                                 <span class="mr-2">Veille Technologique</span>
                             </p>
                         </div>
-                        <h3 class="heading"><a href="{{ route('veilletech') }}">Veille Technologique: Frameworks</a>
+                        <h3 class="heading"><a href="{{ route('veilletech') }}">Veille Technologique: CI/CD & DevOps au sein de la méthode Agile</a>
                         </h3>
                         <p>Travail de veille technologique: méthode et recherche d'informations</p>
                     </div>

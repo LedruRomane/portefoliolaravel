@@ -65,8 +65,8 @@
                     <img src="{{ url('images/extraiws.jpg') }}" alt="" class="img-fluid">
                 </p>
                 <p>
-                    Ci-dessus un extrait du travail réalisé. Le visuel étant protégé par Wess-Soft, il m'est impossible
-                    de montrer le calendrier côté administrateur.
+                    Le visuel étant protégé par Wess-Soft, il m'est impossible de montrer le calendrier côté
+                     administrateur.
                 </p>
                 <p>
                     <img src="{{ url('images/extrait2ws.jpg') }}" alt="" class="img-fluid">

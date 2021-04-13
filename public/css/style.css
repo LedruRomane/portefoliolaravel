@@ -9745,3 +9745,6 @@ textarea.form-control {
         background-image: url('../images/bg_blur.jpg');
     }
 }
+.justify{
+    text-align: justify;
+}
