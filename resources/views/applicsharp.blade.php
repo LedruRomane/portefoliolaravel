@@ -125,8 +125,19 @@
                             <div class="text">
                                 <h3 class="heading"><a href="{{ route('gsb') }}">PPE GSB</a></h3>
                                 <div class="meta">
-                                    <div><span class="icon-calendar"></span> 2020/2021</div>
+                                    <div><span class="icon-calendar"></span> BTS 2019/2021</div>
                                     <div><span class="icon-chat"></span> Client Léger</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4"
+                               style="background-image:url(images/image_2.jpg); background-color:#0b586d;"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="{{ route('stage2') }}">Stage 2ème année Wess-Soft</a></h3>
+                                <div class="meta">
+                                    <div><span class="icon-calendar"></span> Février/Avril 2021</div>
+                                    <div><span class="icon-chat"></span> Stage Fullstack</div>
                                 </div>
                             </div>
                         </div>

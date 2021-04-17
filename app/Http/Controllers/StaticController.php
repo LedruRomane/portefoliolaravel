@@ -34,4 +34,8 @@ class StaticController extends Controller
     {
         return view('applicsharp');
     }
+    public function stage2()
+    {
+        return view('stage2');
+    }
 }

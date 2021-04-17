@@ -203,20 +203,9 @@
                         <h3 class="heading-sidebar" id="tag-2">Autres projets</h3>
                         <div class="block-21 mb-4 d-flex">
                             <a class="blog-img mr-4"
-                               style="background-image:url(images/image_3.jpg)"></a>
+                               style="background-image:url(images/csharp-background.jpg)"></a>
                             <div class="text">
-                                <h3 class="heading"><a href="{{ route('gsb') }}">PPE GSB: web et intranet</a></h3>
-                                <div class="meta">
-                                    <div><span class="icon-calendar"></span> BTS 2019/2021</div>
-                                    <div><span class="icon-chat"></span> Client Léger</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="block-21 mb-4 d-flex">
-                            <a class="blog-img mr-4"
-                               style="background-image:url(images/image_4.jpg)"></a>
-                            <div class="text">
-                                <h3 class="heading"><a href="{{ route('construction') }}">Application C#</a></h3>
+                                <h3 class="heading"><a href="{{ route('applicsharp') }}">Application C#</a></h3>
                                 <div class="meta">
                                     <div><span class="icon-calendar"></span> BTS 2019/2021</div>
                                     <div><span class="icon-chat"></span> Client Lourd</div>
@@ -225,12 +214,34 @@
                         </div>
                         <div class="block-21 mb-4 d-flex">
                             <a class="blog-img mr-4"
-                               style="background-image:url(images/image_2.jpg)"></a>
+                               style="background-image:url(images/image_2.jpg); background-color:#0b586d;"></a>
                             <div class="text">
                                 <h3 class="heading"><a href="{{ route('stagewess') }}">Stage 1er année & CDD Wess-Soft</a></h3>
                                 <div class="meta">
                                     <div><span class="icon-calendar"></span> Juin 2020</div>
                                     <div><span class="icon-chat"></span> CDD Fullstack</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4"
+                               style="background-image:url(images/logogsb.jpg); background-color:whitesmoke;background-size: contain;"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="{{ route('gsb') }}">PPE GSB</a></h3>
+                                <div class="meta">
+                                    <div><span class="icon-calendar"></span> BTS 2019/2021</div>
+                                    <div><span class="icon-chat"></span> Client Léger</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4"
+                               style="background-image:url(images/image_2.jpg); background-color:#0b586d;"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="{{ route('stage2') }}">Stage 2ème année Wess-Soft</a></h3>
+                                <div class="meta">
+                                    <div><span class="icon-calendar"></span> Février/Avril 2021</div>
+                                    <div><span class="icon-chat"></span> Stage Fullstack</div>
                                 </div>
                             </div>
                         </div>

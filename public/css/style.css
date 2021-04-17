@@ -9748,3 +9748,23 @@ textarea.form-control {
 .justify{
     text-align: justify;
 }
+
+.displayFlex{
+    display: flex;
+}
+.list-group-youtube{
+    list-style: url('../images/youtube.png');
+}
+.dropdownCustom{
+    border-radius: 0px;
+    margin-top: -10%;
+    background-color: #ffbd39;
+}
+.dropdownItemCustom{
+    color: white;
+    font-weight: 500;
+}
+.dropdownItemCustom:hover{
+    color: black;
+    font-weight: 500;
+}

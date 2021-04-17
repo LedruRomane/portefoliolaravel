@@ -14,6 +14,18 @@
                 <li class="nav-item"><a href="{{ route('index') }}#projects-section" class="nav-link"><span>Licence</span></a></li>
                 <li class="nav-item"><a href="{{ route('index') }}#blog-section" class="nav-link"><span>BTS SIO</span></a></li>
                 <li class="nav-item"><a href="{{ route('index') }}#contact-section" class="nav-link"><span>Contact</span></a></li>
+                <li class="nav-item dropdown">
+                    <p class="nav-link">
+                        <span>Mes Projets</span>
+                    </p>
+                    <ul class="dropdown-menu dropdownCustom">
+                        <li><a class="dropdown-item dropdownItemCustom" href="{{route('veilletech')}}">Veille Technologique</a></li>
+                        <li><a class="dropdown-item dropdownItemCustom" href="{{route('gsb')}}">PPE</a></li>
+                        <li><a class="dropdown-item dropdownItemCustom" href="{{route('stagewess')}}">Stage et CDD 1ère année</a></li>
+                        <li><a class="dropdown-item dropdownItemCustom" href="{{route('stage2')}}">Stage 2ère année</a></li>
+                        <li><a class="dropdown-item dropdownItemCustom" href="{{route('applicsharp')}}">Application C#</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>

@@ -128,7 +128,7 @@
                             en place d'une CI sur Github Action, participation à des projets back et front ...</p>
                         <div class="row justify-content-center mt-5">
                             <div class="col-md-6 text-center ftco-animate">
-                                <p><a href="" target="_blank" class="btn btn-primary">En savoir plus</a></p>
+                                <p><a href="{{ route('stage2') }}" class="btn btn-primary">En savoir plus</a></p>
                             </div>
                         </div>
                     </div>
@@ -139,11 +139,6 @@
                         <p class="mt-4">Marketing et gestion, studio photo, maquettes et catalogues. Utilisation de
                             Adobe, Excel...
                         </p>
-                        <div class="row justify-content-center mt-5">
-                            <div class="col-md-6 text-center ftco-animate">
-                                <p><a href="" target="_blank" class="btn btn-primary">En savoir plus</a></p>
-                            </div>
-                        </div>
                     </div>
                     <div class="resume-wrap ftco-animate">
                         <span class="date">Printemps 2018</span>
@@ -161,7 +156,7 @@
                             Prestashop (front/back module).</p>
                         <div class="row justify-content-center mt-5">
                             <div class="col-md-6 text-center ftco-animate">
-                                <p><a href="{{ route('stagewess') }}" target="_blank" class="btn btn-primary">En savoir plus</a></p>
+                                <p><a href="{{ route('stagewess') }}" class="btn btn-primary">En savoir plus</a></p>
                             </div>
                         </div>
                     </div>
@@ -175,7 +170,7 @@
                         </p>
                         <div class="row justify-content-center mt-5">
                             <div class="col-md-6 text-center ftco-animate">
-                                <p><a href="{{ route('stagewess') }}" target="_blank" class="btn btn-primary">En savoir plus</a></p>
+                                <p><a href="{{ route('stagewess') }}" class="btn btn-primary">En savoir plus</a></p>
                             </div>
                         </div>
                     </div>
@@ -384,12 +379,12 @@
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-3 meta">
                                 <p class="mb-0">
-                                    <span class="mr-2">Client Léger</span>
+                                    <span class="mr-2">Stage</span>
                                 </p>
                             </div>
                             <h3 class="heading"><a href="{{ route('stagewess') }}">Stage & CDD 1ère année: Wess-Soft</a>
                             </h3>
-                            <p>Travaux réalisés durant mon stage de première année. Symfony - Prestashop - Wordpress -</p>
+                            <p>Travaux réalisés durant mon stage de première année et mon CDD qui a suivi pour l'été 2020. Symfony - Prestashop - Wordpress</p>
                         </div>
                     </div>
                 </div>
@@ -405,28 +400,43 @@
                             </div>
                             <h3 class="heading"><a href="{{ route('applicsharp') }}">Application C#</a>
                             </h3>
-                            <p>PPE application C# - Page en construction.</p>
+                            <p>PPE application C# en Windows Forms</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="ftco-section">
-        <div class="container">
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry justify-content-end">
-                    <a href="{{ route('veilletech') }}" class="block-20" style="background-image: url('images/CICD.jpg');">
-                    </a>
-                    <div class="text mt-3 float-right d-block">
-                        <div class="d-flex align-items-center mb-3 meta">
-                            <p class="mb-0">
-                                <span class="mr-2">Veille Technologique</span>
-                            </p>
+            <div class="row d-flex">
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="{{ route('veilletech') }}" class="block-20" style="background-image: url('images/CICD.jpg');">
+                        </a>
+                        <div class="text mt-3 float-right d-block">
+                            <div class="d-flex align-items-center mb-3 meta">
+                                <p class="mb-0">
+                                    <span class="mr-2">Veille Technologique</span>
+                                </p>
+                            </div>
+                            <h3 class="heading"><a href="{{ route('veilletech') }}">Veille Technologique: CI/CD & DevOps au sein de la méthode Agile</a>
+                            </h3>
+                            <p>Travail de veille technologique: méthode et recherche d'informations</p>
                         </div>
-                        <h3 class="heading"><a href="{{ route('veilletech') }}">Veille Technologique: CI/CD & DevOps au sein de la méthode Agile</a>
-                        </h3>
-                        <p>Travail de veille technologique: méthode et recherche d'informations</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="{{ route('stage2') }}" class="block-20" style="background-image: url('images/image_2.jpg'); background-color:#0b586d;">
+                        </a>
+                        <div class="text mt-3 float-right d-block">
+                            <div class="d-flex align-items-center mb-3 meta">
+                                <p class="mb-0">
+                                    <span class="mr-2">Stage</span>
+                                </p>
+                            </div>
+                            <h3 class="heading"><a href="{{ route('stage2') }}">Stage 2ème année: Wess-Soft</a>
+                            </h3>
+                            <p>Travaux réalisés durant mon stage de seconde année de BTS.
+                                Symfony - Wordpress - Modules prestashop - CI/CD</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -450,6 +460,7 @@
                         <div class="text">
                             <span class="icon">
                                 <img src="{{ url('images/mountain-range.png') }}" style="width:50px;height:50px;">
+                            </span>
                             <span>Randonnée</span>
                         </div>
                     </div>
@@ -482,7 +493,6 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 ftco-animate text-center">
                     <h2>Aussi de <span>nombreuses</span> passions</h2>
-                    <p>Je suis très éclectique</p>
                 </div>
             </div>
         </div>
@@ -505,7 +515,9 @@
                         <div class="text">
                             <span class="icon">
                                 <img src="{{ url('images/iceberg.png') }}" style="width:50px;height:50px;">
+                            </span>
                             <span>Escalade</span>
+
                         </div>
                     </div>
                 </div>
