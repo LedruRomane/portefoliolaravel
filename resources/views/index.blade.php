@@ -8,7 +8,7 @@
             <div class="row d-flex">
                 <div class="text">
                     <span class="subheading">Bonjour!</span>
-                    <h1 class="mb-4 mt-3">Je suis <br><span>Romane Ledru</span></h1>
+                    <h1 class="mb-4 mt-3">Portefolio <br><span>Romane Ledru</span></h1>
                     <h2 class="mb-4">Étudiante en Développement</h2>
                     <p><a href="https://www.linkedin.com/in/romane-ledru" target="_blank"
                           class="btn btn-primary py-3 px-4 ">LinkedIn</a>
@@ -202,54 +202,259 @@
             </div>
             <div class="row">
                 <div class="col-md-4 text-center d-flex ftco-animate">
-                    <a href="#skills-section" class="services-1">
+                    <button type="button" class="services-1" data-bs-toggle="modal" data-bs-target="#ModalMaquette">
                         <span class="icon">
                             <i class="flaticon-web-design"></i>
                         </span>
                         <div class="desc">
                             <h3 class="mb-5">Design Web <br>Suite Adobe</h3>
                         </div>
-                    </a>
+                    </button>
+                </div>
+                <div class="modal fade" id="ModalMaquette" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title modal-h5" id="exampleModalLabel">Maquettes XD</h5>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/maquetteGSB.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">GSB PPE</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('gsb') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/maquetteWESSSOFT.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Stage 1 Wess-Soft</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('stagewess') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/maquetteALGOREL.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Stage 2 Wess-Soft</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('stage2') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/maquetteMairie.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Engagement citoyen</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('engagement') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4 text-center d-flex ftco-animate">
-                    <a href="#skills-section" class="services-1">
+                    <button type="button" class="services-1" data-bs-toggle="modal" data-bs-target="#ModalCMS">
                         <span class="icon">
                             <i class="flaticon-idea"></i>
                         </span>
                         <div class="desc">
                             <h3 class="mb-5">Développement Web <br>CMS</h3>
                         </div>
-                    </a>
+                    </button>
+                </div>
+                <div class="modal fade" id="ModalCMS" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-ls">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title modal-h5" id="ModalLabelAppli">Développement web CMS</h5>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/prestashopModule.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Prestashop</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('stage2') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/maquetteWESSSOFT.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Wordpress</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('stagewess') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4 text-center d-flex ftco-animate">
-                    <a href="#skills-section" class="services-1">
+                    <button  type="button" class="services-1" data-bs-toggle="modal" data-bs-target="#ModalAppli">
                         <span class="icon">
                             <i class="flaticon-ideas"></i>
                         </span>
                         <div class="desc">
                             <h3 class="mb-5">Application C#</h3>
                         </div>
-                    </a>
+                    </button>
+                </div>
+                <div class="modal fade" id="ModalAppli" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-ls">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title modal-h5" id="ModalLabelAppli">Application C# en Windows Form</h5>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/AppliCshar2.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">GSB Application</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('applicsharp') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4 text-center d-flex ftco-animate">
-                    <a href="#skills-section" class="services-1">
+                    <button type="button" class="services-1" data-bs-toggle="modal" data-bs-target="#ModalVers">
                         <span class="icon">
                             <i class="flaticon-ux-design"></i>
                         </span>
                         <div class="desc">
                             <h3 class="mb-5">Versioning git</h3>
                         </div>
-                    </a>
+                    </button>
+                </div>
+                <div class="modal fade" id="ModalVers" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title modal-h5" id="ModalLabelVers">Versionning</h5>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/versionningKraken.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Git Kraken</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/github.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">GitHub</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="https://github.com/romaneledru" target="_blank" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4 text-center d-flex ftco-animate">
-                    <a href="#skills-section" class="services-1">
+                    <button type="button" class="services-1" data-bs-toggle="modal" data-bs-target="#ModalFramework">
                         <span class="icon">
                             <i class="flaticon-analysis"></i>
                         </span>
                         <div class="desc">
                             <h3 class="mb-5">Frameworks <br> Laravel-Symfony</h3>
                         </div>
-                    </a>
+                    </button>
+                </div>
+                <div class="modal fade" id="ModalFramework" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title modal-h5" id="ModalLabelFramework">Frameworks</h5>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/laravelArtisan.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Laravel et php artisan</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('gsb') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/CompetenceCICD.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">CI & CD</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('stage2') }}" target="_blank" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/symfonydoctrine.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Symfony</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('stagewess') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100 text-white bg-dark">
+                                            <img src="images/Agiledev.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Méthode Agile</h5>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="{{ route('veilletech') }}" class="btn btn-primary">Voir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4 text-center d-flex ftco-animate">
                     <a href="#skills-section" class="services-1">

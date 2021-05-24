@@ -38,4 +38,9 @@ class StaticController extends Controller
     {
         return view('stage2');
     }
+
+    public function engagement()
+    {
+        return view('engagement');
+    }
 }

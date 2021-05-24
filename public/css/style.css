@@ -9768,3 +9768,15 @@ textarea.form-control {
     color: black;
     font-weight: 500;
 }
+
+.modal-h5{
+    color: black;
+}
+
+.buttonImage{
+    border-radius: 50px;
+    padding: 0px;
+    margin: 0px;
+    border-color: #ffbd39;
+    color: white;
+}

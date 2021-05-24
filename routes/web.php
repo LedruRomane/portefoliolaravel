@@ -24,3 +24,4 @@ Route::get('/construction',[\App\Http\Controllers\StaticController::class, 'cons
 Route::get('/veilletech',[\App\Http\Controllers\StaticController::class, 'veilletech'])->name('veilletech');
 Route::get('/applicsharp',[\App\Http\Controllers\StaticController::class, 'applicsharp'])->name('applicsharp');
 Route::get('/stage2',[\App\Http\Controllers\StaticController::class, 'stage2'])->name('stage2');
+Route::get('/engagement',[\App\Http\Controllers\StaticController::class, 'engagement'])->name('engagement');

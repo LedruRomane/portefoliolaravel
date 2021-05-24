@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-TPJ9WJH');</script>
-        <!-- End Google Tag Manager -->
         <meta charset="utf-8" />
         <title>@yield('title')</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="{{ url('css/open-iconic-bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ url('css/animate.css') }}">
-        <link rel="stylesheet" href="{{ url('css/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ url('css/owl.theme.default.min.css') }}">
         <link rel="stylesheet" href="{{ url('css/magnific-popup.css') }}">
         <link rel="stylesheet" href="{{ url('css/aos.css') }}">
@@ -22,7 +14,8 @@
         <link rel="stylesheet" href="{{ url('css/flaticon.css') }}">
         <link rel="stylesheet" href="{{ url('css/icomoon.css') }}">
         <link rel="stylesheet" href="{{ url('css/style.css') }}">
-       <title>@yield('title')</title>
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+
     </head>
 
     <body>
@@ -42,7 +35,6 @@
     <script src="{{ url('js/jquery.easing.1.3.js') }}"></script>
     <script src="{{ url('js/jquery.waypoints.min.js') }}"></script>
     <script src="{{ url('js/jquery.stellar.min.js') }}"></script>
-    <script src="{{ url('js/owl.carousel.min.js') }}"></script>
     <script src="{{ url('js/jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ url('js/aos.js') }}"></script>
     <script src="{{ url('js/jquery.animateNumber.min.js') }}"></script>
@@ -53,6 +45,9 @@
     <script src="js/jquery.min.js.pagespeed.jm.xZH2zNe7lE.js"></script>
     <script src="js/jquery.min.js.pagespeed.jm.xZH2zNe7lE.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.WnXzm1IAg8.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
     <script>
         eval(mod_pagespeed_wMAuns0NII);
     </script>
